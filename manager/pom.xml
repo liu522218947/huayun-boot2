@@ -30,6 +30,16 @@
             <version>4.11</version>
             <scope>test</scope>
         </dependency>
+            <dependency>
+                <groupId>com.huayun</groupId>
+                <artifactId>service</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.huayun</groupId>
+                <artifactId>common</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
     </dependencies>
 
     <build>
