@@ -14,7 +14,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableAutoConfiguration
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 @EnableTransactionManagement
-@MapperScan("com.huayun.*.mapper")
+@MapperScan("com.huayun.dao")
 public class WebApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
